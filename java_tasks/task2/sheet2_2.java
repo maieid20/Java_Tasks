@@ -26,8 +26,8 @@ public class sheet2_2 {
         {   for(int j=0; j<c; j++ )  
             { transport[i][j]=arr[i][j]; } } 
          
-         // print transport matrix
-         System.out.println("the transport matrix is : ");
+         // print Transpose matrix
+         System.out.println("the Transpose matrix is : ");
         for(int i=0; i<r;i++) 
         { 
             for(int j=0; j<c; j++ )  
