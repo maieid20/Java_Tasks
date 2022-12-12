@@ -20,18 +20,18 @@ public class sheet2_2 {
         {    for(int j=0; j<c; j++ )  
             { arr[i][j]=input.nextInt(); } } 
              
-        int [][]transport= new int[r][c];    // Declare Transpose matrix
+        int [][]Transpose= new int[r][c];    // Declare Transpose matrix
          
         for(int i=0; i<r;i++)  // Initialize Transpose matrix
         {   for(int j=0; j<c; j++ )  
-            { transport[i][j]=arr[i][j]; } } 
+            { Transpose[i][j]=arr[i][j]; } } 
          
          // print Transpose matrix
          System.out.println("the Transpose matrix is : ");
         for(int i=0; i<r;i++) 
         { 
             for(int j=0; j<c; j++ )  
-            { System.out.print(transport[j][i]+" ");  } 
+            { System.out.print(Transpose[j][i]+" ");  } 
             System.out.println(); 
         } 
 
